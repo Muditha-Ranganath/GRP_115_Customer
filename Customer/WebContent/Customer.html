@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer</title>
+	<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<script src="Components/jquery-3.6.0.min.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-danger text-white text-center">Customer</h2>
+	
+	<form action="register" method="post">
+    <table class="table table-hover">
+       
+       <tr>
+        <td>Customer Name</td>
+        <td><input type="text" name="name" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Customer Account No</td>
+        <td><input type="text" name="Acc_no" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Customer Email</td>
+        <td><input type="text" name="email" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Customer Phone</td>
+        <td><input type="text" name="phone" class="form-control"></td>
+       </tr>
+       <tr> 
+        <td><input type="submit" value="Register" class="btn btn-success" ></td>
+        <td><input type="reset" value="Cancel" class="btn btn-secondary"></td>
+       </tr>
+    </table>
+    <a href='cusList' class="btn btn-outline-primary">Customer List</a>
+</form>
+
+</body>
+</html>
